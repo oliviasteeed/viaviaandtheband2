@@ -1,0 +1,22 @@
+
+  @font-face {
+    font-family: "AlteHaas";
+    font-weight: normal;
+    font-style: bold;
+    src: url("../fonts/altehaasgrotesk-regular.eot");
+    src: url("../fonts/altehaasgrotesk-regular.eot?#iefix") format("embedded-opentype"), 
+    url("../fonts/altehaasgrotesk-regular.woff2") format("woff2"), 
+    url("../fonts/altehaasgrotesk-regular.woff") format("woff"), 
+    url("../fonts/altehaasgrotesk-regular.ttf") format("truetype");
+  }
+
+  @font-face {
+    font-family: "Synt";
+    font-weight: normal;
+    font-style: bold;
+    src: url("../fonts/ABCSynt-Turbo-Trial.eot");
+    src: url("../fonts/ABCSynt-Turbo-Trial.eot?#iefix") format("embedded-opentype"), 
+    url("../fonts/ABCSynt-Turbo-Trial.woff2") format("woff2"), 
+    url("../fonts/ABCSynt-Turbo-Trial.woff") format("woff"), 
+    url("../fonts/ABCSynt-Turbo-Trial.ttf") format("truetype");
+  }

@@ -1,0 +1,130 @@
+/* GENERAL LAYOUT */
+
+/*parent of all containers, margin around sides*/
+.outer-margin-container {
+    margin: 0rem 1rem 1rem 1rem;
+    display: flex;
+    flex-direction: column;
+    // border: 1px solid yellow;
+}
+
+/*header nav parent*/
+.header-container {
+    display: flex;
+    flex-direction: row;
+    // border: 1px solid pink;
+    align-items: center;
+    background-color: #14161C;
+    padding: 1rem 0 1rem 0;
+    margin-bottom:5rem;
+    position: sticky;
+    top:0;
+    z-index:1;
+}
+
+.left-link {
+    display: flex;
+    justify-self: left;
+    // border: 1px solid pink;
+
+}
+
+.center-link {
+    display: flex;
+    justify-content: center;
+    // border: 1px solid red;
+    flex: 1;
+}
+
+.outer-right-link {
+    display: flex;
+    justify-self: right;
+    flex-direction: row;
+    // border: 1px solid blue;
+    // justify-content: space-between;
+    gap: 1rem;
+}
+
+/*parent of side-container and content-container*/
+.outer-content-container {
+    display: flex;
+    flex-direction: row;
+    // border: 1px solid green;
+}
+
+.side-container {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    // border: 1px solid orange;
+    justify-items: space-between;
+    gap: 0.5rem;
+}
+
+/*right side content parent*/
+.content-container {
+    display: flex;
+    flex-direction:column;
+    flex: 4;
+    gap:4rem;
+    margin: 0 0 10rem 0;
+    // border: 1px solid red;
+}
+
+/* SONG INFO LAYOUT */
+
+.outer-song-container{
+    display:flex;
+    flex-direction:column;
+    // border: 1px solid green;
+}
+
+/*title and credits parent*/
+.outer-song-title-container{
+    display:flex;
+    flex-direction:row;
+    // border: 1px solid blue;
+}
+
+.song-title{
+    display:flex;
+    flex:1;
+    // border: 1px solid purple;
+}
+
+.song-credits{
+    display:flex;
+    flex-direction:column;
+    // border: 1px solid pink;
+    gap:0.25rem;
+    margin: 0.3rem 0 0 0;
+}
+
+/*image, comments and lyrics parent*/
+.outer-song-img-info-container{
+    display:flex;
+    flex-direction:row;
+    // border: 1px solid red;
+    gap:2rem;
+}
+
+.song-img-info-container{
+    display:flex;
+    flex:1;
+    flex-direction:column;
+    // border: 1px solid peachpuff;
+}
+
+.outer-song-lyrics-container{
+    display:flex;
+    flex:1;
+    flex-direction:column;
+    // border: 1px solid blue;
+}
+
+.song-lyrics-container{
+    display:flex;
+    flex-direction:row;
+    gap:1rem;
+    // border: 1px solid cyan;
+}

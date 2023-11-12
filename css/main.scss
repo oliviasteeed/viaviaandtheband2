@@ -1,0 +1,249 @@
+$white: #FFFFFF;
+$blue: #2A73FF;
+$green: #0D8A4E;
+$purple: #A937DF;
+$black: #14161C;
+$red: #FE2A5D;
+$orange: #FE4E15;
+$pink: #FF7A63;
+
+a{
+    text-decoration:none;
+    transition: opacity 0.3s ease-in-out;
+}
+
+a:hover{
+    opacity:1;
+}
+
+body{
+    background-color:$black;
+}
+
+.album-title{
+    font-family: "Synt";
+    font-size: 1.5rem;
+    font-weight:initial;
+    color:$white;
+    margin:0;
+    padding:0;
+}
+
+.song-title{
+    font-family: "Synt";
+    font-size: 2.75rem;
+    font-weight:initial;
+    margin:-0.25rem 0 0 0;
+    padding:0;
+}
+
+.song-info{
+    font-family:"neue-haas-grotesk-text";
+    font-size: 0.5rem;
+    font-weight:10;
+    margin:0;
+    padding:0;
+}
+
+.song-lyrics{
+    font-family:"neue-haas-grotesk-text";
+    font-size: 0.7rem;
+    font-weight:0;
+}
+
+.song-comment{
+    font-family:"neue-haas-grotesk-text";
+    font-size: 0.6rem;
+    font-weight:0;
+}
+
+h2{
+    font-family:"neue-haas-grotesk-text";
+    font-size: 0.75rem;
+    font-weight:100;
+    margin:0.5rem 0 0.5rem 0;
+    padding:0;
+}
+
+.link{
+    font-family:"AlteHaas";
+    font-size: 0.75rem;
+    font-weight:0;
+    color:$white;
+    opacity:0.5;
+    margin:0;
+    padding:0;
+}
+
+.album-img{
+    width: 25rem;
+}
+
+
+
+#noone, #latetotheparty{
+    color:$blue;
+
+    .line{
+        border-top:1px solid $blue;
+    }
+
+    .album-img{
+        border: 1px solid $blue;
+        border-radius:10px;
+    }
+    
+}
+
+#eyecandy, #grownonme{
+    color:$green;
+
+    .line{
+        border-top:1px solid $green;
+    }
+
+    .album-img{
+        border: 1px solid $green;
+        border-radius:10px;
+    }
+}
+
+#halflife, #shinedownonme{
+    color:$orange;
+
+    .line{
+        border-top:1px solid $orange;
+    }
+
+    .album-img{
+        border: 1px solid $orange;
+        border-radius:10px;
+    }
+}
+
+#icantbehappywithanything, #fakeloverinadaydream{
+    color:$red;
+
+    .line{
+        border-top:1px solid $red;
+    }
+
+    .album-img{
+        border: 1px solid $red;
+        border-radius:10px;
+    }
+}
+
+#proudofyou, #prettybox{
+    color:$pink;
+
+    .line{
+        border-top:1px solid $pink;
+    }
+
+    .album-img{
+        border: 1px solid $pink;
+        border-radius:10px;
+    }
+}
+
+#justanotherlonelygirl, #irememberyoufondly{
+    color:$purple;
+
+    .line{
+        border-top:1px solid $purple;
+    }
+
+    .album-img{
+        border: 1px solid $purple;
+        border-radius:10px;
+    }
+}
+
+#theband{
+    color:$white;
+
+    .line{
+        border-top:1px solid $white;
+    }
+
+    .album-img{
+        border: 1px solid $white;
+        border-radius:10px;
+    }
+}
+
+
+
+
+
+
+/* cursor selection matches section colour */
+
+@mixin background-colour {
+    background-color: $white;
+}
+
+p::selection {
+    @include background-colour;
+}
+
+em::selection {
+    @include background-colour;
+}
+
+strong::selection {
+    @include background-colour;
+}
+
+code::selection {
+    @include background-colour;
+}
+
+h1::selection {
+    @include background-colour;
+}
+
+h2::selection {
+    @include background-colour;
+}
+
+h3::selection {
+    @include background-colour;
+}
+
+h4::selection {
+    @include background-colour;
+}
+
+h5::selection {
+    @include background-colour;
+}
+
+a::selection {
+    @include background-colour;
+}
+
+ul::selection {
+    @include background-colour;
+}
+
+ol::selection {
+    @include background-colour;
+}
+
+li::selection {
+    @include background-colour;
+}
+
+img::selection {
+    @include background-colour;
+}
+
+figcaption::selection {
+    @include background-colour;
+}
+
+input::selection {
+    @include background-colour;
+}
