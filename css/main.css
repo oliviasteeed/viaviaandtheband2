@@ -71,68 +71,99 @@ h2 {
   width: 25rem;
 }
 
-#noone, #latetotheparty {
+iframe {
+  width: 100%;
+  height: 100%;
+}
+
+.iframe-container {
+  border-radius: 20px;
+  overflow: hidden;
+  border: 1px solid #2A73FF;
+  border-radius: 10px;
+  aspect-ratio: 16/9;
+}
+
+#noone,
+#latetotheparty {
   color: #2A73FF;
 }
-#noone .line, #latetotheparty .line {
+#noone .line,
+#latetotheparty .line {
   border-top: 1px solid #2A73FF;
 }
-#noone .album-img, #latetotheparty .album-img {
+#noone .album-img,
+#latetotheparty .album-img {
   border: 1px solid #2A73FF;
   border-radius: 10px;
 }
 
-#eyecandy, #grownonme {
+#eyecandy,
+#grownonme {
   color: #0D8A4E;
 }
-#eyecandy .line, #grownonme .line {
+#eyecandy .line,
+#grownonme .line {
   border-top: 1px solid #0D8A4E;
 }
-#eyecandy .album-img, #grownonme .album-img {
+#eyecandy .album-img,
+#grownonme .album-img {
   border: 1px solid #0D8A4E;
   border-radius: 10px;
 }
 
-#halflife, #shinedownonme {
+#halflife,
+#shinedownonme {
   color: #FE4E15;
 }
-#halflife .line, #shinedownonme .line {
+#halflife .line,
+#shinedownonme .line {
   border-top: 1px solid #FE4E15;
 }
-#halflife .album-img, #shinedownonme .album-img {
+#halflife .album-img,
+#shinedownonme .album-img {
   border: 1px solid #FE4E15;
   border-radius: 10px;
 }
 
-#icantbehappywithanything, #fakeloverinadaydream {
+#icantbehappywithanything,
+#fakeloverinadaydream {
   color: #FE2A5D;
 }
-#icantbehappywithanything .line, #fakeloverinadaydream .line {
+#icantbehappywithanything .line,
+#fakeloverinadaydream .line {
   border-top: 1px solid #FE2A5D;
 }
-#icantbehappywithanything .album-img, #fakeloverinadaydream .album-img {
+#icantbehappywithanything .album-img,
+#fakeloverinadaydream .album-img {
   border: 1px solid #FE2A5D;
   border-radius: 10px;
 }
 
-#proudofyou, #prettybox {
+#proudofyou,
+#prettybox {
   color: #FF7A63;
 }
-#proudofyou .line, #prettybox .line {
+#proudofyou .line,
+#prettybox .line {
   border-top: 1px solid #FF7A63;
 }
-#proudofyou .album-img, #prettybox .album-img {
+#proudofyou .album-img,
+#prettybox .album-img {
   border: 1px solid #FF7A63;
   border-radius: 10px;
 }
 
-#justanotherlonelygirl, #irememberyoufondly {
+#justanotherlonelygirl,
+#irememberyoufondly {
   color: #A937DF;
 }
-#justanotherlonelygirl .line, #irememberyoufondly .line {
+#justanotherlonelygirl .line,
+#irememberyoufondly .line {
   border-top: 1px solid #A937DF;
 }
-#justanotherlonelygirl .album-img, #irememberyoufondly .album-img {
+#justanotherlonelygirl .album-img,
+#irememberyoufondly .album-img {
   border: 1px solid #A937DF;
   border-radius: 10px;
 }
@@ -273,5 +304,13 @@ input::-moz-selection {
 }
 
 input::selection {
+  background-color: #FFFFFF;
+}
+
+iframe::-moz-selection {
+  background-color: #FFFFFF;
+}
+
+iframe::selection {
   background-color: #FFFFFF;
 }

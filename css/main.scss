@@ -7,169 +7,188 @@ $red: #FE2A5D;
 $orange: #FE4E15;
 $pink: #FF7A63;
 
-a{
-    text-decoration:none;
+a {
+    text-decoration: none;
     transition: opacity 0.3s ease-in-out;
 }
 
-a:hover{
-    opacity:1;
+a:hover {
+    opacity: 1;
 }
 
-body{
-    background-color:$black;
+body {
+    background-color: $black;
 }
 
-.album-title{
+.album-title {
     font-family: "Synt";
     font-size: 1.5rem;
-    font-weight:initial;
-    color:$white;
-    margin:0;
-    padding:0;
+    font-weight: initial;
+    color: $white;
+    margin: 0;
+    padding: 0;
 }
 
-.song-title{
+.song-title {
     font-family: "Synt";
     font-size: 2.75rem;
-    font-weight:initial;
-    margin:-0.25rem 0 0 0;
-    padding:0;
+    font-weight: initial;
+    margin: -0.25rem 0 0 0;
+    padding: 0;
 }
 
-.song-info{
-    font-family:"neue-haas-grotesk-text";
+.song-info {
+    font-family: "neue-haas-grotesk-text";
     font-size: 0.5rem;
-    font-weight:10;
-    margin:0;
-    padding:0;
+    font-weight: 10;
+    margin: 0;
+    padding: 0;
 }
 
-.song-lyrics{
-    font-family:"neue-haas-grotesk-text";
+.song-lyrics {
+    font-family: "neue-haas-grotesk-text";
     font-size: 0.7rem;
-    font-weight:0;
+    font-weight: 0;
 }
 
-.song-comment{
-    font-family:"neue-haas-grotesk-text";
+.song-comment {
+    font-family: "neue-haas-grotesk-text";
     font-size: 0.6rem;
-    font-weight:0;
+    font-weight: 0;
 }
 
-h2{
-    font-family:"neue-haas-grotesk-text";
+h2 {
+    font-family: "neue-haas-grotesk-text";
     font-size: 0.75rem;
-    font-weight:100;
-    margin:0.5rem 0 0.5rem 0;
-    padding:0;
+    font-weight: 100;
+    margin: 0.5rem 0 0.5rem 0;
+    padding: 0;
 }
 
-.link{
-    font-family:"AlteHaas";
+.link {
+    font-family: "AlteHaas";
     font-size: 0.75rem;
-    font-weight:0;
-    color:$white;
-    opacity:0.5;
-    margin:0;
-    padding:0;
+    font-weight: 0;
+    color: $white;
+    opacity: 0.5;
+    margin: 0;
+    padding: 0;
 }
 
-.album-img{
+.album-img {
     width: 25rem;
 }
 
+iframe{
+    width:100%;
+    height:100%;
+}
+
+.iframe-container {
+    border-radius: 20px;
+    overflow: hidden;
+    border: 1px solid $blue;
+    border-radius: 10px;
+    aspect-ratio: 16 / 9;
+}
 
 
-#noone, #latetotheparty{
-    color:$blue;
 
-    .line{
-        border-top:1px solid $blue;
+#noone,
+#latetotheparty {
+    color: $blue;
+
+    .line {
+        border-top: 1px solid $blue;
     }
 
-    .album-img{
+    .album-img {
         border: 1px solid $blue;
-        border-radius:10px;
+        border-radius: 10px;
     }
-    
+
 }
 
-#eyecandy, #grownonme{
-    color:$green;
+#eyecandy,
+#grownonme {
+    color: $green;
 
-    .line{
-        border-top:1px solid $green;
+    .line {
+        border-top: 1px solid $green;
     }
 
-    .album-img{
+    .album-img {
         border: 1px solid $green;
-        border-radius:10px;
+        border-radius: 10px;
     }
 }
 
-#halflife, #shinedownonme{
-    color:$orange;
+#halflife,
+#shinedownonme {
+    color: $orange;
 
-    .line{
-        border-top:1px solid $orange;
+    .line {
+        border-top: 1px solid $orange;
     }
 
-    .album-img{
+    .album-img {
         border: 1px solid $orange;
-        border-radius:10px;
+        border-radius: 10px;
     }
 }
 
-#icantbehappywithanything, #fakeloverinadaydream{
-    color:$red;
+#icantbehappywithanything,
+#fakeloverinadaydream {
+    color: $red;
 
-    .line{
-        border-top:1px solid $red;
+    .line {
+        border-top: 1px solid $red;
     }
 
-    .album-img{
+    .album-img {
         border: 1px solid $red;
-        border-radius:10px;
+        border-radius: 10px;
     }
 }
 
-#proudofyou, #prettybox{
-    color:$pink;
+#proudofyou,
+#prettybox {
+    color: $pink;
 
-    .line{
-        border-top:1px solid $pink;
+    .line {
+        border-top: 1px solid $pink;
     }
 
-    .album-img{
+    .album-img {
         border: 1px solid $pink;
-        border-radius:10px;
+        border-radius: 10px;
     }
 }
 
-#justanotherlonelygirl, #irememberyoufondly{
-    color:$purple;
+#justanotherlonelygirl,
+#irememberyoufondly {
+    color: $purple;
 
-    .line{
-        border-top:1px solid $purple;
+    .line {
+        border-top: 1px solid $purple;
     }
 
-    .album-img{
+    .album-img {
         border: 1px solid $purple;
-        border-radius:10px;
+        border-radius: 10px;
     }
 }
 
-#theband{
-    color:$white;
+#theband {
+    color: $white;
 
-    .line{
-        border-top:1px solid $white;
+    .line {
+        border-top: 1px solid $white;
     }
 
-    .album-img{
+    .album-img {
         border: 1px solid $white;
-        border-radius:10px;
+        border-radius: 10px;
     }
 }
 
@@ -245,5 +264,9 @@ figcaption::selection {
 }
 
 input::selection {
+    @include background-colour;
+}
+
+iframe::selection {
     @include background-colour;
 }
