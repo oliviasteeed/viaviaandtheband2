@@ -1,13 +1,24 @@
 
   @font-face {
-    font-family: "AlteHaas";
+    font-family: "AlteHaas-regular";
     font-weight: normal;
-    font-style: bold;
+    font-style: normal;
     src: url("../fonts/altehaasgrotesk-regular.eot");
     src: url("../fonts/altehaasgrotesk-regular.eot?#iefix") format("embedded-opentype"), 
     url("../fonts/altehaasgrotesk-regular.woff2") format("woff2"), 
     url("../fonts/altehaasgrotesk-regular.woff") format("woff"), 
     url("../fonts/altehaasgrotesk-regular.ttf") format("truetype");
+  }
+
+  @font-face {
+    font-family: "AlteHaas-bold";
+    font-weight: normal;
+    font-style: bold;
+    src: url("../fonts/altehaasgrotesk-bold.eot");
+    src: url("../fonts/altehaasgrotesk-bold.eot?#iefix") format("embedded-opentype"), 
+    url("../fonts/altehaasgrotesk-bold.woff2") format("woff2"), 
+    url("../fonts/altehaasgrotesk-bold.woff") format("woff"), 
+    url("../fonts/altehaasgrotesk-bold.ttf") format("truetype");
   }
 
   @font-face {
