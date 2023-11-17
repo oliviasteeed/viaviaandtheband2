@@ -16,10 +16,10 @@
     align-items: center;
     background-color: #14161C;
     padding: 1rem 0 1rem 0;
-    margin-bottom:5rem;
+    margin-bottom: 5rem;
     position: sticky;
-    top:0;
-    z-index:1;
+    top: 0;
+    z-index: 1;
 }
 
 .left-link {
@@ -50,6 +50,8 @@
     display: flex;
     flex-direction: row;
     // border: 1px solid green;
+    border: 10px solid red;
+    gap: 1rem;
 }
 
 .side-container {
@@ -58,76 +60,144 @@
     flex: 1;
     // border: 1px solid orange;
     justify-items: space-between;
-    gap: 0.5rem;
+    gap: 0.75rem;
 }
 
 /*right side content parent*/
 .content-container {
     display: flex;
-    flex-direction:column;
+    flex-direction: column;
     flex: 4;
-    gap:4rem;
+    gap: 4rem;
     margin: 0 0 10rem 0;
-    // border: 1px solid red;
 }
 
 /* SONG INFO LAYOUT */
 
-.outer-song-container{
-    display:flex;
-    flex-direction:column;
-    // border: 1px solid green;
+.outer-song-container {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid green;
 }
 
 /*title and credits parent*/
-.outer-song-title-container{
-    display:flex;
-    flex-direction:row;
-    // border: 1px solid blue;
+.outer-song-title-container {
+    display: flex;
+    flex-direction: row;
+    border: 1px solid blue;
     padding: 0.25rem 0 0 0;
+    flex-wrap: wrap;
 }
 
-.song-title-box{
-    display:flex;
-    flex:1;
-    // border: 1px solid purple;
+.song-title-box {
+    display: flex;
+    flex: 1;
+    border: 1px solid purple;
 }
 
-.song-credits{
-    display:flex;
-    flex-direction:column;
-    // border: 1px solid pink;
-    gap:0.25rem;
+.song-credits {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid pink;
+    gap: 0.25rem;
     margin: 0.3rem 0 0 0;
-    align-self:right;
+    align-self: right;
 }
 
 /*image, comments and lyrics parent*/
-.outer-song-img-info-container{
-    display:flex;
-    flex-direction:row;
+/*THIS IS NOT USED AND IT SCREWS EVERYTHING UP FOR SOME REASON??????????*/
+.outer-song-img-info-container {
+    display: flex;
+    flex-direction: row;
     border: 1px solid red;
-    gap:2rem;
+    gap: 2rem;
     padding: 0.5rem 0 0 0;
+    flex-wrap: wrap;
 }
 
-.song-img-info-container{
-    display:flex;
-    flex:1;
-    flex-direction:column;
+.song-img-info-container {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
     border: 1px solid peachpuff;
 }
 
-.outer-song-lyrics-container{
-    display:flex;
-    flex:1;
-    flex-direction:column;
+.outer-song-lyrics-container {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
     border: 1px solid blue;
 }
 
-.song-lyrics-container{
-    display:flex;
-    flex-direction:row;
-    gap:1rem;
-    // border: 1px solid cyan;
+.song-lyrics-container {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    border: 1px solid cyan;
+}
+
+
+/* MOBILE BREAKPOINT */
+@media screen and (max-width: 767px) {
+
+    /*title and credits parent*/
+    .outer-song-title-container {
+        flex-direction:column;
+
+    }
+
+    .song-credits{
+        flex-direction:row;
+        gap:0.5rem;
+        justify-content:center;
+    }
+
+    .song-lyrics-container {
+        flex-direction:column;
+        align-items:center;
+    }
+
+    .outer-content-container{
+        flex-direction:column;
+    }
+
+    .side-container {
+        display: flex;
+        flex-direction: row;
+        flex: 1;
+        border: 1px solid orange;
+        justify-items: space-between;
+        gap: 0.75rem;
+        position: sticky;
+        top: 60px;
+        z-index: 1;
+        background-color: #14161C;
+        padding: 0rem 0 0.5rem 0;
+    }
+
+    .song-title-box {
+        justify-content:center;
+    }
+
+
+    .header-container {
+        margin-bottom: 0.5rem;
+    }
+
+
+}
+
+/*LYRICS WRAP BREAKPOINT*/
+@media screen and (max-width: 521px) {
+    .outer-song-img-info-container {
+        flex-direction:column;
+    }
+
+
+    .song-img-info-container{
+        align-items:center;
+    }
+
+
+
 }

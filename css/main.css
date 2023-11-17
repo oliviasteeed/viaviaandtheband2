@@ -46,6 +46,8 @@ body {
   font-weight: 400;
   font-style: italic;
   font-size: 0.7rem;
+  margin: 0;
+  padding: 0;
 }
 
 .song-comment {
@@ -58,7 +60,7 @@ h2 {
   font-family: "AlteHaas-bold";
   font-size: 0.75rem;
   font-weight: 100;
-  margin: 0.5rem 0 0.5rem 0;
+  margin: 0.5rem 0 1rem 0;
   padding: 0;
 }
 
@@ -70,6 +72,7 @@ h2 {
   opacity: 0.5;
   margin: 0;
   padding: 0;
+  line-height: 80%;
 }
 
 .album-img {
@@ -86,7 +89,7 @@ iframe {
   overflow: hidden;
   border: 1px solid #2A73FF;
   border-radius: 10px;
-  aspect-ratio: 16/9;
+  border: 1px orange solid;
 }
 
 #noone,
@@ -208,6 +211,25 @@ iframe {
   border-radius: 10px;
 }
 
+/* MOBILE BREAKPOINT */
+@media screen and (max-width: 767px) {
+  .song-title {
+    font-weight: initial;
+    letter-spacing: -2px;
+    text-align: center;
+  }
+  .song-lyrics {
+    font-size: 1.2rem;
+    max-width: 20rem;
+  }
+  h2 {
+    font-size: 2rem;
+    text-align: center;
+  }
+  .song-comment {
+    max-width: 20rem;
+  }
+}
 /* cursor selection matches section colour */
 p::-moz-selection {
   background-color: #FFFFFF;
