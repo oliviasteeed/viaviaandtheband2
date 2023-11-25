@@ -34,6 +34,16 @@ body {
   line-height: 80%;
 }
 
+.announce-title {
+  font-family: "AlteHaas-bold";
+  font-size: 5rem;
+  font-weight: initial;
+  margin: 0 0 0 0;
+  padding: 0;
+  letter-spacing: -3px;
+  line-height: 80%;
+}
+
 .song-info {
   font-family: "neue-haas-grotesk-text";
   font-size: 0.5rem;
@@ -417,5 +427,21 @@ iframe::-moz-selection {
 }
 
 iframe::selection {
+  background-color: #FFFFFF;
+}
+
+.announce-info::-moz-selection {
+  background-color: #FFFFFF;
+}
+
+.announce-info::selection {
+  background-color: #FFFFFF;
+}
+
+.band-comment::-moz-selection {
+  background-color: #FFFFFF;
+}
+
+.band-comment::selection {
   background-color: #FFFFFF;
 }
