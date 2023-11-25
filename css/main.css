@@ -300,6 +300,9 @@ iframe {
     max-width: 80vw;
     word-break: break-word;
   }
+  .album-img {
+    width: 75vw;
+  }
 }
 /*LYRICS WRAP BREAKPOINT*/
 @media screen and (max-width: 521px) {
