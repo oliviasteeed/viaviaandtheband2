@@ -73,7 +73,6 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
-  border: 10px solid red;
   gap: 1rem;
 }
 
@@ -117,7 +116,6 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  border: 1px solid green;
 }
 
 /*title and credits parent*/
@@ -129,7 +127,6 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
-  border: 1px solid blue;
   padding: 0.25rem 0 0 0;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
@@ -142,7 +139,6 @@
   -webkit-box-flex: 1;
       -ms-flex: 1;
           flex: 1;
-  border: 1px solid purple;
 }
 
 .song-credits {
@@ -153,7 +149,6 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  border: 1px solid pink;
   gap: 0.25rem;
   margin: 0.3rem 0 0 0;
   -ms-flex-item-align: right;
@@ -162,7 +157,6 @@
 }
 
 /*image, comments and lyrics parent*/
-/*THIS IS NOT USED AND IT SCREWS EVERYTHING UP FOR SOME REASON??????????*/
 .outer-song-img-info-container {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -171,7 +165,6 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
-  border: 1px solid red;
   gap: 2rem;
   padding: 0.5rem 0 0 0;
   -ms-flex-wrap: wrap;
@@ -189,7 +182,6 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  border: 1px solid peachpuff;
 }
 
 .outer-song-lyrics-container {
@@ -203,7 +195,6 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  border: 1px solid blue;
 }
 
 .song-lyrics-container {
@@ -215,7 +206,31 @@
       -ms-flex-direction: row;
           flex-direction: row;
   gap: 1rem;
-  border: 1px solid cyan;
+}
+
+/*band about outer container*/
+.outer-band-about-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  gap: 2rem;
+  padding: 0.5rem 0 0 0;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+/*band about text container*/
+.band-text-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
 }
 
 /* MOBILE BREAKPOINT */
@@ -263,7 +278,6 @@
     -webkit-box-flex: 1;
         -ms-flex: 1;
             flex: 1;
-    border: 1px solid orange;
     justify-items: space-between;
     gap: 0.75rem;
     position: sticky;

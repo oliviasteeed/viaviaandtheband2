@@ -55,15 +55,22 @@ body {
     font-family: "nimbus-roman", serif;
     font-weight: 400;
     font-style: italic;
-    font-size: 0.7rem;
+    font-size: 0.9rem;
     margin:0;
     padding:0;
 }
 
 .song-comment {
     font-family: "neue-haas-grotesk-text";
-    font-size: 0.6rem;
+    font-size: 0.75rem;
     font-weight: 0;
+}
+
+.band-comment{
+    font-family: "neue-haas-grotesk-text";
+    font-size: 0.75rem;
+    font-weight: 0;
+    width: 30rem;
 }
 
 h2 {
@@ -96,6 +103,9 @@ h2 {
 
 .album-img {
     width: 25rem;
+    aspect-ratio:1/1;
+    display: flex;
+    flex:1;
 }
 
 iframe {
@@ -106,10 +116,8 @@ iframe {
 .iframe-container {
     border-radius: 20px;
     overflow: hidden;
-    border: 1px solid $blue;
     border-radius: 10px;
     aspect-ratio: 16 / 9;
-    border: 1px orange solid;
 }
 
 
@@ -131,6 +139,10 @@ iframe {
         -webkit-text-stroke: 1px $blue;
     }
 
+    .iframe-container{
+        border: 1px solid $blue;
+    }
+
 }
 
 #eyecandy,
@@ -148,6 +160,10 @@ iframe {
 
     .song-title {
         -webkit-text-stroke: 1px $green;
+    }
+
+    .iframe-container{
+        border: 1px solid $green;
     }
 }
 
@@ -167,6 +183,10 @@ iframe {
     .song-title {
         -webkit-text-stroke: 1px $orange;
     }
+
+    .iframe-container{
+        border: 1px solid $orange;
+    }
 }
 
 #icantbehappywithanything,
@@ -184,6 +204,10 @@ iframe {
 
     .song-title {
         -webkit-text-stroke: 1px $red;
+    }
+
+    .iframe-container{
+        border: 1px solid $red;
     }
 }
 
@@ -203,6 +227,10 @@ iframe {
     .song-title {
         -webkit-text-stroke: 1px $pink;
     }
+
+    .iframe-container{
+        border: 1px solid $pink;
+    }
 }
 
 #justanotherlonelygirl,
@@ -221,9 +249,13 @@ iframe {
     .song-title {
         -webkit-text-stroke: 1px $purple;
     }
+
+    .iframe-container{
+        border: 1px solid $purple;
+    }
 }
 
-#theband {
+#theband, #thealbum {
     color: $white;
 
     .line {
@@ -250,7 +282,8 @@ iframe {
 
     .song-lyrics {
         font-size:1.2rem;
-        max-width:20rem;
+        // border: 1px solid orange;
+        width:45vw;
     }
 
     h2 {
@@ -262,6 +295,15 @@ iframe {
         max-width:20rem;
     }
        
+}
+
+/*LYRICS WRAP BREAKPOINT*/
+@media screen and (max-width: 521px) {
+    .song-lyrics {
+        font-size:1.2rem;
+        // border: 1px solid orange;
+        width:60vw;
+    }
 }
 
 
