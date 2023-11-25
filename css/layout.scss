@@ -15,8 +15,7 @@
     // border: 1px solid pink;
     align-items: center;
     background-color: #14161C;
-    padding: 1rem 0 1rem 0;
-    margin-bottom: 5rem;
+    padding: 1rem 0 1.5rem 0;
     position: sticky;
     top: 0;
     z-index: 1;
@@ -139,7 +138,7 @@
 .outer-band-about-container{
     display: flex;
     flex-direction: row;
-    // border: 1px solid red;
+    border: 1px solid red;
     gap: 2rem;
     padding: 0.5rem 0 0 0;
     flex-wrap: wrap;
@@ -150,7 +149,7 @@
 .band-text-container{
     display: flex;
     flex: 1;
-    // border: 1px solid orange;
+    border: 1px solid orange;
 }
 
 
@@ -187,10 +186,10 @@
         justify-items: space-between;
         gap: 0.75rem;
         position: sticky;
-        top: 60px;
+        top: 50px;
         z-index: 1;
         background-color: #14161C;
-        padding: 0rem 0 0.5rem 0;
+        padding: 0rem 0 0.75rem 0;
     }
 
     .song-title-box {
@@ -214,6 +213,17 @@
 
     .song-img-info-container{
         align-items:center;
+    }
+
+    .outer-band-about-container{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    
+    /*band about text container*/
+    .band-text-container{
+        min-width:20rem;
     }
 
 
