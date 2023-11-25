@@ -271,9 +271,12 @@ iframe {
 /* MOBILE BREAKPOINT */
 @media screen and (max-width: 767px) {
   .song-title {
+    font-size: 4rem;
     font-weight: initial;
     letter-spacing: -2px;
     text-align: center;
+    max-width: 80vw;
+    word-break: break-word;
   }
   .song-lyrics {
     font-size: 1.2rem;
@@ -285,6 +288,17 @@ iframe {
   }
   .song-comment {
     max-width: 20rem;
+  }
+  .album-title {
+    font-family: "AlteHaas-bold";
+    letter-spacing: -0.5px;
+    font-size: 1rem;
+  }
+  .announce-title {
+    font-size: 4rem;
+    letter-spacing: -2px;
+    max-width: 80vw;
+    word-break: break-word;
   }
 }
 /*LYRICS WRAP BREAKPOINT*/
