@@ -1,14 +1,8 @@
-.line {
-  border: solid 1px white;
-  opacity: 0.75;
-  margin: 1rem 0 1rem 0;
-}
-
 a {
   text-decoration: none;
   -webkit-transition: opacity 0.3s ease-in-out;
   transition: opacity 0.3s ease-in-out;
-  color: #2A73FF;
+  color: #141FFF;
 }
 
 a:hover {
@@ -16,7 +10,7 @@ a:hover {
 }
 
 body {
-  background-color: #2A73FF;
+  background-color: #141FFF;
   color: white;
 }
 
@@ -35,7 +29,7 @@ body {
   font-family: "Louise";
   font-size: 3rem;
   font-weight: normal;
-  margin-bottom: 0.5rem;
+  margin: 0 0 0.5rem 0;
   padding: 0;
   max-width: 45rem;
   line-height: 80%;
@@ -147,152 +141,152 @@ iframe {
 
 /* cursor selection matches section colour */
 p::-moz-selection {
-  background-color: #2A73FF;
+  background-color: #FF7A63;
 }
 p::selection {
-  background-color: #2A73FF;
+  background-color: #FF7A63;
 }
 
 em::-moz-selection {
-  background-color: #2A73FF;
+  background-color: #FF7A63;
 }
 
 em::selection {
-  background-color: #2A73FF;
+  background-color: #FF7A63;
 }
 
 strong::-moz-selection {
-  background-color: #2A73FF;
+  background-color: #FF7A63;
 }
 
 strong::selection {
-  background-color: #2A73FF;
+  background-color: #FF7A63;
 }
 
 code::-moz-selection {
-  background-color: #2A73FF;
+  background-color: #FF7A63;
 }
 
 code::selection {
-  background-color: #2A73FF;
+  background-color: #FF7A63;
 }
 
 h1::-moz-selection {
-  background-color: #2A73FF;
+  background-color: #FF7A63;
 }
 
 h1::selection {
-  background-color: #2A73FF;
+  background-color: #FF7A63;
 }
 
 h2::-moz-selection {
-  background-color: #2A73FF;
+  background-color: #FF7A63;
 }
 
 h2::selection {
-  background-color: #2A73FF;
+  background-color: #FF7A63;
 }
 
 h3::-moz-selection {
-  background-color: #2A73FF;
+  background-color: #FF7A63;
 }
 
 h3::selection {
-  background-color: #2A73FF;
+  background-color: #FF7A63;
 }
 
 h4::-moz-selection {
-  background-color: #2A73FF;
+  background-color: #FF7A63;
 }
 
 h4::selection {
-  background-color: #2A73FF;
+  background-color: #FF7A63;
 }
 
 h5::-moz-selection {
-  background-color: #2A73FF;
+  background-color: #FF7A63;
 }
 
 h5::selection {
-  background-color: #2A73FF;
+  background-color: #FF7A63;
 }
 
 a::-moz-selection {
-  background-color: #2A73FF;
+  background-color: #FF7A63;
 }
 
 a::selection {
-  background-color: #2A73FF;
+  background-color: #FF7A63;
 }
 
 ul::-moz-selection {
-  background-color: #2A73FF;
+  background-color: #FF7A63;
 }
 
 ul::selection {
-  background-color: #2A73FF;
+  background-color: #FF7A63;
 }
 
 ol::-moz-selection {
-  background-color: #2A73FF;
+  background-color: #FF7A63;
 }
 
 ol::selection {
-  background-color: #2A73FF;
+  background-color: #FF7A63;
 }
 
 li::-moz-selection {
-  background-color: #2A73FF;
+  background-color: #FF7A63;
 }
 
 li::selection {
-  background-color: #2A73FF;
+  background-color: #FF7A63;
 }
 
 img::-moz-selection {
-  background-color: #2A73FF;
+  background-color: #FF7A63;
 }
 
 img::selection {
-  background-color: #2A73FF;
+  background-color: #FF7A63;
 }
 
 figcaption::-moz-selection {
-  background-color: #2A73FF;
+  background-color: #FF7A63;
 }
 
 figcaption::selection {
-  background-color: #2A73FF;
+  background-color: #FF7A63;
 }
 
 input::-moz-selection {
-  background-color: #2A73FF;
+  background-color: #FF7A63;
 }
 
 input::selection {
-  background-color: #2A73FF;
+  background-color: #FF7A63;
 }
 
 iframe::-moz-selection {
-  background-color: #2A73FF;
+  background-color: #FF7A63;
 }
 
 iframe::selection {
-  background-color: #2A73FF;
+  background-color: #FF7A63;
 }
 
 .announce-info::-moz-selection {
-  background-color: #2A73FF;
+  background-color: #FF7A63;
 }
 
 .announce-info::selection {
-  background-color: #2A73FF;
+  background-color: #FF7A63;
 }
 
 .band-comment::-moz-selection {
-  background-color: #2A73FF;
+  background-color: #FF7A63;
 }
 
 .band-comment::selection {
-  background-color: #2A73FF;
+  background-color: #FF7A63;
 }

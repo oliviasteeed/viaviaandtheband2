@@ -1,5 +1,5 @@
 $white: #FFFFFF;
-$blue: #2A73FF;
+$blue: #141FFF;
 $green: #0D8A4E;
 $purple: #A937DF;
 $black: #14161C;
@@ -7,16 +7,16 @@ $red: #FE2A5D;
 $orange: #FE4E15;
 $pink: #FF7A63;
 
-.line{
-    border: solid 1px white;
-    opacity:0.75;
-    margin: 1rem 0 1rem 0;
-}
+// .line{
+//     border: solid 0.1px white;
+//     opacity:0.75;
+//     margin: 1rem 0 0 0;
+// }
 
 a {
     text-decoration: none;
     transition: opacity 0.3s ease-in-out;
-    color: #2A73FF;
+    color: #141FFF;
 }
 
 a:hover {
@@ -24,7 +24,7 @@ a:hover {
 }
 
 body {
-    background-color: #2A73FF;
+    background-color: #141FFF;
     color: white;
 }
 
@@ -43,7 +43,7 @@ body {
     font-family: "Louise";
     font-size: 3rem;
     font-weight: normal;
-    margin-bottom: 0.5rem;
+    margin: 0 0 0.5rem 0;
     padding: 0;
     max-width: 45rem;
     line-height: 80%;
@@ -227,7 +227,7 @@ iframe {
 /* cursor selection matches section colour */
 
 @mixin background-colour {
-    background-color: #2A73FF;
+    background-color: #FF7A63;
 }
 
 p::selection {

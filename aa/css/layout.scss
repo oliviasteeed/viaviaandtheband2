@@ -16,7 +16,7 @@
     align-items: center;
     // background-color: #14161C;
     padding: 1rem 0 1.5rem 0;
-    margin-bottom: 4rem;
+    // margin-bottom: 4rem;
     position: sticky;
     top: 0;
     z-index: 1;
@@ -52,7 +52,7 @@
     display: flex;
     flex-direction: column;
     // border: 1px solid red;
-    gap:1rem;
+    gap:3rem;
 }
 
 /* holding one song*/
@@ -60,6 +60,7 @@
     display: flex;
     flex-direction: column;
     // border: 1px solid orange;
+    gap:0.5rem;
 }
 
 /* holding one song*/
