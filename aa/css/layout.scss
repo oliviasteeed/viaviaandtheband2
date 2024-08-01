@@ -1,0 +1,95 @@
+/* GENERAL LAYOUT */
+
+/*parent of all containers, margin around sides*/
+.outer-margin-container {
+    margin: 0rem 1rem 1rem 1rem;
+    display: flex;
+    flex-direction: column;
+    // border: 1px solid yellow;
+}
+
+/*header nav parent*/
+.header-container {
+    display: flex;
+    flex-direction: row;
+    // border: 1px solid pink;
+    align-items: center;
+    // background-color: #14161C;
+    padding: 1rem 0 1.5rem 0;
+    margin-bottom: 4rem;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+.left-link {
+    display: flex;
+    justify-self: left;
+    // border: 1px solid pink;
+
+}
+
+.center-link {
+    display: flex;
+    justify-content: center;
+    // border: 1px solid red;
+    flex: 1;
+}
+
+.outer-right-link {
+    display: flex;
+    justify-self: right;
+    flex-direction: row;
+    // border: 1px solid blue;
+    // justify-content: space-between;
+    gap: 1rem;
+}
+
+/* actual content*/
+
+/* holding all subsequent flexbox*/
+.outer-box{
+    display: flex;
+    flex-direction: column;
+    // border: 1px solid red;
+    gap:1rem;
+}
+
+/* holding one song*/
+.song-box{
+    display: flex;
+    flex-direction: column;
+    // border: 1px solid orange;
+}
+
+/* holding one song*/
+.lyrics-box{
+    display: flex;
+    flex: 0 0 auto;
+    flex-direction: row;
+    // border: 1px solid green;
+    gap:0.5rem;
+}
+
+.song-lyrics{
+    flex:0.40;
+    gap:1.5rem;
+}
+
+/*spacer for lyrics box sizing*/
+.spacer{
+    display: flex;
+    flex:1;
+    // border: 1px solid blue;
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+    gap:0.5rem;
+    margin: 1rem 0 1rem 0;
+}
+
+.vertical-spacer{
+    margin:1rem 0 0 0;
+}

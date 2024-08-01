@@ -1,0 +1,307 @@
+$white: #FFFFFF;
+$blue: #2A73FF;
+$green: #0D8A4E;
+$purple: #A937DF;
+$black: #14161C;
+$red: #FE2A5D;
+$orange: #FE4E15;
+$pink: #FF7A63;
+
+.line{
+    border: solid 1px white;
+    opacity:0.75;
+    margin: 1rem 0 1rem 0;
+}
+
+a {
+    text-decoration: none;
+    transition: opacity 0.3s ease-in-out;
+    color: #2A73FF;
+}
+
+a:hover {
+    opacity: 1;
+}
+
+body {
+    background-color: #2A73FF;
+    color: white;
+}
+
+.album-title {
+    font-family: "AlteHaas-regular";
+    letter-spacing: -0.75px;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.5rem;
+    color: #FFFFFF;
+    margin: 0;
+    padding: 0;
+}
+
+.song-title {
+    font-family: "Louise";
+    font-size: 3rem;
+    font-weight: normal;
+    margin-bottom: 0.5rem;
+    padding: 0;
+    max-width: 45rem;
+    line-height: 80%;
+    color: white;
+}
+
+.announce-title {
+    font-family: "AlteHaas-bold";
+    font-size: 5rem;
+    font-weight: initial;
+    margin: 0 0 0 0;
+    padding: 0;
+    letter-spacing: -3px;
+    line-height: 80%;
+}
+
+.song-info {
+    font-family: "neue-haas-grotesk-text";
+    font-size: 0.5rem;
+    font-weight: 10;
+    margin: 0;
+    padding: 0;
+}
+
+.song-lyrics {
+    font-family: "neue-haas-unica", sans-serif;
+    line-height:110%;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 0.9rem;
+    margin:0;
+    padding:0;
+    opacity: 0.5;
+}
+
+.song-comment {
+    font-family: "neue-haas-grotesk-text";
+    font-size: 0.75rem;
+    font-weight: 0;
+}
+
+.band-comment{
+    font-family: "neue-haas-grotesk-text";
+    font-size: 0.75rem;
+    font-weight: 0;
+    width:25rem;
+}
+
+h1{
+    font-weight: normal;
+    font-weight:100;
+}
+h2{
+    font-weight: normal;
+}
+
+h2 {
+    font-family: "AlteHaas-bold";
+    font-size: 1.25rem;
+    font-weight: 100;
+    margin: 0.5rem 0 1rem 0;
+    padding: 0;
+}
+
+h4{
+    font-family: "AlteHaas-regular";
+    font-size: 0.75rem;
+    font-weight: 0;
+    color: $white;
+    margin: 0;
+    padding: 0;
+    line-height: 80%;
+}
+
+.link {
+    font-family: "AlteHaas-regular";
+    font-size: 0.75rem;
+    font-weight: 0;
+    opacity: 0.75;
+    margin: 0;
+    padding: 0;
+    line-height: 80%;
+    color: #2A73FF;
+}
+
+.band-title{
+    font-family: "AlteHaas-regular";
+    font-size: 0.75rem;
+    font-weight: 0;
+    color: $white;
+    opacity: 0.5;
+    margin: 0;
+    padding: 0;
+    line-height: 80%;
+
+    // font-family: "nimbus-roman", serif;
+    // font-size: 0.75rem;
+    // font-weight: 400;
+    // font-style: normal;
+    // margin:0;
+    // padding:0;
+}
+
+
+iframe {
+    width: 100%;
+    height: 100%;
+}
+
+.iframe-container {
+    border-radius: 20px;
+    overflow: hidden;
+    border-radius: 10px;
+    aspect-ratio: 16 / 9;
+}
+
+
+
+
+
+
+// /* MOBILE BREAKPOINT */
+// @media screen and (max-width: 767px) {
+//     .song-title {
+//         font-size: 4rem;
+//         font-weight: initial;
+//         letter-spacing: -2px;
+//         text-align: center;
+//         max-width:80vw;
+//         word-break: break-word;
+//     }
+
+//     .song-lyrics {
+//         font-size:1.2rem;
+//         // border: 1px solid orange;
+//         width:45vw;
+//     }
+
+//     h2 {
+//         font-size: 2rem;
+//         text-align: center;
+//     }
+
+//     .song-comment {
+//         max-width:20rem;
+//     }
+
+//     .album-title {
+//         font-family: "AlteHaas-bold";
+//         letter-spacing: -0.5px;
+//         font-size: 1rem;
+//     }
+
+//     .announce-title {
+//         font-size: 4rem;
+//         letter-spacing: -2px;
+//         max-width:80vw;
+//         word-break: break-word;
+//     }
+
+//     .album-img {
+//         width: 75vw;
+//     }
+       
+// }
+
+// /*LYRICS WRAP BREAKPOINT*/
+// @media screen and (max-width: 521px) {
+//     .song-lyrics {
+//         font-size:1.2rem;
+//         // border: 1px solid orange;
+//         width:60vw;
+//     }
+// }
+
+
+
+
+
+
+/* cursor selection matches section colour */
+
+@mixin background-colour {
+    background-color: #2A73FF;
+}
+
+p::selection {
+    @include background-colour;
+}
+
+em::selection {
+    @include background-colour;
+}
+
+strong::selection {
+    @include background-colour;
+}
+
+code::selection {
+    @include background-colour;
+}
+
+h1::selection {
+    @include background-colour;
+}
+
+h2::selection {
+    @include background-colour;
+}
+
+h3::selection {
+    @include background-colour;
+}
+
+h4::selection {
+    @include background-colour;
+}
+
+h5::selection {
+    @include background-colour;
+}
+
+a::selection {
+    @include background-colour;
+}
+
+ul::selection {
+    @include background-colour;
+}
+
+ol::selection {
+    @include background-colour;
+}
+
+li::selection {
+    @include background-colour;
+}
+
+img::selection {
+    @include background-colour;
+}
+
+figcaption::selection {
+    @include background-colour;
+}
+
+input::selection {
+    @include background-colour;
+}
+
+iframe::selection {
+    @include background-colour;
+}
+
+.announce-info::selection {
+    @include background-colour;
+}
+
+.band-comment::selection {
+    @include background-colour;
+}

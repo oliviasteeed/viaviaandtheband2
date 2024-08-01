@@ -1,0 +1,298 @@
+.line {
+  border: solid 1px white;
+  opacity: 0.75;
+  margin: 1rem 0 1rem 0;
+}
+
+a {
+  text-decoration: none;
+  -webkit-transition: opacity 0.3s ease-in-out;
+  transition: opacity 0.3s ease-in-out;
+  color: #2A73FF;
+}
+
+a:hover {
+  opacity: 1;
+}
+
+body {
+  background-color: #2A73FF;
+  color: white;
+}
+
+.album-title {
+  font-family: "AlteHaas-regular";
+  letter-spacing: -0.75px;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1.5rem;
+  color: #FFFFFF;
+  margin: 0;
+  padding: 0;
+}
+
+.song-title {
+  font-family: "Louise";
+  font-size: 3rem;
+  font-weight: normal;
+  margin-bottom: 0.5rem;
+  padding: 0;
+  max-width: 45rem;
+  line-height: 80%;
+  color: white;
+}
+
+.announce-title {
+  font-family: "AlteHaas-bold";
+  font-size: 5rem;
+  font-weight: initial;
+  margin: 0 0 0 0;
+  padding: 0;
+  letter-spacing: -3px;
+  line-height: 80%;
+}
+
+.song-info {
+  font-family: "neue-haas-grotesk-text";
+  font-size: 0.5rem;
+  font-weight: 10;
+  margin: 0;
+  padding: 0;
+}
+
+.song-lyrics {
+  font-family: "neue-haas-unica", sans-serif;
+  line-height: 110%;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 0.9rem;
+  margin: 0;
+  padding: 0;
+  opacity: 0.5;
+}
+
+.song-comment {
+  font-family: "neue-haas-grotesk-text";
+  font-size: 0.75rem;
+  font-weight: 0;
+}
+
+.band-comment {
+  font-family: "neue-haas-grotesk-text";
+  font-size: 0.75rem;
+  font-weight: 0;
+  width: 25rem;
+}
+
+h1 {
+  font-weight: normal;
+  font-weight: 100;
+}
+
+h2 {
+  font-weight: normal;
+}
+
+h2 {
+  font-family: "AlteHaas-bold";
+  font-size: 1.25rem;
+  font-weight: 100;
+  margin: 0.5rem 0 1rem 0;
+  padding: 0;
+}
+
+h4 {
+  font-family: "AlteHaas-regular";
+  font-size: 0.75rem;
+  font-weight: 0;
+  color: #FFFFFF;
+  margin: 0;
+  padding: 0;
+  line-height: 80%;
+}
+
+.link {
+  font-family: "AlteHaas-regular";
+  font-size: 0.75rem;
+  font-weight: 0;
+  opacity: 0.75;
+  margin: 0;
+  padding: 0;
+  line-height: 80%;
+  color: #2A73FF;
+}
+
+.band-title {
+  font-family: "AlteHaas-regular";
+  font-size: 0.75rem;
+  font-weight: 0;
+  color: #FFFFFF;
+  opacity: 0.5;
+  margin: 0;
+  padding: 0;
+  line-height: 80%;
+}
+
+iframe {
+  width: 100%;
+  height: 100%;
+}
+
+.iframe-container {
+  border-radius: 20px;
+  overflow: hidden;
+  border-radius: 10px;
+  aspect-ratio: 16/9;
+}
+
+/* cursor selection matches section colour */
+p::-moz-selection {
+  background-color: #2A73FF;
+}
+p::selection {
+  background-color: #2A73FF;
+}
+
+em::-moz-selection {
+  background-color: #2A73FF;
+}
+
+em::selection {
+  background-color: #2A73FF;
+}
+
+strong::-moz-selection {
+  background-color: #2A73FF;
+}
+
+strong::selection {
+  background-color: #2A73FF;
+}
+
+code::-moz-selection {
+  background-color: #2A73FF;
+}
+
+code::selection {
+  background-color: #2A73FF;
+}
+
+h1::-moz-selection {
+  background-color: #2A73FF;
+}
+
+h1::selection {
+  background-color: #2A73FF;
+}
+
+h2::-moz-selection {
+  background-color: #2A73FF;
+}
+
+h2::selection {
+  background-color: #2A73FF;
+}
+
+h3::-moz-selection {
+  background-color: #2A73FF;
+}
+
+h3::selection {
+  background-color: #2A73FF;
+}
+
+h4::-moz-selection {
+  background-color: #2A73FF;
+}
+
+h4::selection {
+  background-color: #2A73FF;
+}
+
+h5::-moz-selection {
+  background-color: #2A73FF;
+}
+
+h5::selection {
+  background-color: #2A73FF;
+}
+
+a::-moz-selection {
+  background-color: #2A73FF;
+}
+
+a::selection {
+  background-color: #2A73FF;
+}
+
+ul::-moz-selection {
+  background-color: #2A73FF;
+}
+
+ul::selection {
+  background-color: #2A73FF;
+}
+
+ol::-moz-selection {
+  background-color: #2A73FF;
+}
+
+ol::selection {
+  background-color: #2A73FF;
+}
+
+li::-moz-selection {
+  background-color: #2A73FF;
+}
+
+li::selection {
+  background-color: #2A73FF;
+}
+
+img::-moz-selection {
+  background-color: #2A73FF;
+}
+
+img::selection {
+  background-color: #2A73FF;
+}
+
+figcaption::-moz-selection {
+  background-color: #2A73FF;
+}
+
+figcaption::selection {
+  background-color: #2A73FF;
+}
+
+input::-moz-selection {
+  background-color: #2A73FF;
+}
+
+input::selection {
+  background-color: #2A73FF;
+}
+
+iframe::-moz-selection {
+  background-color: #2A73FF;
+}
+
+iframe::selection {
+  background-color: #2A73FF;
+}
+
+.announce-info::-moz-selection {
+  background-color: #2A73FF;
+}
+
+.announce-info::selection {
+  background-color: #2A73FF;
+}
+
+.band-comment::-moz-selection {
+  background-color: #2A73FF;
+}
+
+.band-comment::selection {
+  background-color: #2A73FF;
+}

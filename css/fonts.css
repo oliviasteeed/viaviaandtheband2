@@ -31,3 +31,14 @@
     url("../fonts/ABCSynt-Turbo-Trial.woff") format("woff"), 
     url("../fonts/ABCSynt-Turbo-Trial.ttf") format("truetype");
   }
+
+  @font-face {
+    font-family: "Louise";
+    font-weight: normal;
+    font-style: normal;
+    src: url("../aa/fonts/Louise-Regular.eot");
+    src: url("../aa/fonts/Louise-Regular.eot?#iefix") format("embedded-opentype"), 
+    url("../fonts/aa/Louise-Regular.woff2") format("woff2"), 
+    url("../fonts/aa/Louise-Regular.woff") format("woff"), 
+    url("../fonts/aa/Louise-Regular.ttf") format("truetype");
+  }
