@@ -76,7 +76,30 @@ body {
     font-size: 0.9rem;
     margin:0;
     padding:0;
+    opacity: 0.85;
+}
+
+.about-album {
+    font-family: "neue-haas-unica", sans-serif;
+    line-height:110%;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 0.9rem;
+    margin:0;
+    padding:0;
     opacity: 0.5;
+}
+
+.about-lyrics {
+    font-family: "neue-haas-unica", sans-serif;
+    line-height:110%;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 0.8rem;
+    margin:0;
+    padding:0;
+    opacity: 0.5;
+    // border: 1px solid orange;
 }
 
 .song-comment {
@@ -210,14 +233,7 @@ iframe {
        
 // }
 
-// /*LYRICS WRAP BREAKPOINT*/
-// @media screen and (max-width: 521px) {
-//     .song-lyrics {
-//         font-size:1.2rem;
-//         // border: 1px solid orange;
-//         width:60vw;
-//     }
-// }
+
 
 
 
