@@ -38,7 +38,7 @@
     font-style: normal;
     src: url("../aa/fonts/Louise-Regular.eot");
     src: url("../aa/fonts/Louise-Regular.eot?#iefix") format("embedded-opentype"), 
-    url("../fonts/aa/Louise-Regular.woff2") format("woff2"), 
-    url("../fonts/aa/Louise-Regular.woff") format("woff"), 
-    url("../fonts/aa/Louise-Regular.ttf") format("truetype");
+    url("..aa/fonts/Louise-Regular.woff2") format("woff2"), 
+    url("../aa/fonts/Louise-Regular.woff") format("woff"), 
+    url("../aa/fonts/Louise-Regular.ttf") format("truetype");
   }
