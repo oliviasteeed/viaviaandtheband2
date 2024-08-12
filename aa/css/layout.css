@@ -1,7 +1,7 @@
 /* GENERAL LAYOUT */
 /*parent of all containers, margin around sides*/
 .outer-margin-container {
-  margin: 0rem 1rem 1rem 1rem;
+  margin: 1rem 1rem 3rem 1rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -11,45 +11,40 @@
           flex-direction: column;
 }
 
-/*header nav parent*/
-.header-container {
+.header-box {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
+  -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  position: sticky;
+  top: 1rem;
+  z-index: 1;
+  gap: 2rem;
+}
+
+.site-titles {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  padding: 1rem 0 1.5rem 0;
   position: sticky;
-  top: 0;
   z-index: 1;
+  top: 2rem;
 }
 
-.left-link {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-grid-column-align: left;
-      justify-self: left;
-}
-
-.center-link {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-flex: 1;
-      -ms-flex: 1;
-          flex: 1;
-}
-
-.outer-right-link {
+.nav-links {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -63,47 +58,7 @@
 }
 
 /* actual content*/
-/* holding all subsequent flexbox*/
-.outer-box {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  gap: 5rem;
-}
-
-/* holding one song*/
-.song-box {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  gap: 0.5rem;
-}
-
-/* holding one song*/
-.lyrics-box {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-flex: 0;
-      -ms-flex: 0 0 auto;
-          flex: 0 0 auto;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  gap: 2rem;
-}
-
-/* holding one song*/
-.just-lyrics {
+.column-container {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -111,35 +66,18 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
-  gap: 2rem;
-  max-width: 500px;
 }
 
-/* holding one about album paragraph*/
-.album-box {
+.left-column {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-flex: 0;
-      -ms-flex: 0 0 auto;
-          flex: 0 0 auto;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  gap: 2rem;
-  max-width: 500px;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
 }
 
-.song-lyrics {
-  -webkit-box-flex: 0.75;
-      -ms-flex: 0.75;
-          flex: 0.75;
-  gap: 1.5rem;
-}
-
-/*spacer for about lyrics and space*/
-.spacer {
+.right-column {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -150,19 +88,13 @@
   -webkit-box-flex: 2;
       -ms-flex: 2;
           flex: 2;
-  -webkit-box-pack: start;
-      -ms-flex-pack: start;
-          justify-content: flex-start;
   -webkit-box-align: end;
       -ms-flex-align: end;
           align-items: flex-end;
+  gap: 2rem;
 }
 
-.about-lyrics {
-  max-width: 300px;
-}
-
-footer {
+.title-songs-container {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -170,27 +102,51 @@ footer {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  gap: 0.5rem;
-  margin: 1rem 0 1rem 0;
+  gap: 2rem;
+  width: 60vw;
 }
 
-.vertical-spacer {
-  margin: 1rem 0 0 0;
+.songs-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  gap: 2rem;
+  width: 60vw;
+}
+
+.song-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 1rem;
+}
+
+/* holding all subsequent flexbox*/
+/* holding one song*/
+/* holding one song*/
+.song-lyrics {
+  gap: 1.5rem;
+}
+
+/*spacer for about lyrics and space*/
+.about-lyrics {
+  max-width: 300px;
 }
 
 /*LYRICS WRAP BREAKPOINT*/
 @media screen and (max-width: 800px) {
-  body {
-    background-image: url("../img/img2.png");
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    min-height: 100vw;
-    margin: 0;
-    padding: 0;
-  }
-  .lyrics-box {
+  .column-container {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -198,9 +154,8 @@ footer {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    gap: 0.5rem;
   }
-  .just-lyrics {
+  .title-songs-container {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -208,9 +163,21 @@ footer {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    gap: 0.5rem;
+    gap: 2rem;
+    width: 92vw;
   }
-  .spacer {
+  .songs-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    gap: 2rem;
+    width: 92vw;
+  }
+  .right-column {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -218,18 +185,18 @@ footer {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    -webkit-box-flex: 1;
-        -ms-flex: 1;
-            flex: 1;
-    -webkit-box-pack: start;
-        -ms-flex-pack: start;
-            justify-content: flex-start;
     -webkit-box-align: start;
         -ms-flex-align: start;
             align-items: flex-start;
-    margin-top: 1rem;
+    gap: 2rem;
   }
-  .about-lyrics {
-    max-width: 500px;
+  .left-column {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
+    margin-bottom: 2rem;
   }
 }
